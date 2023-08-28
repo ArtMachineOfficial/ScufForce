@@ -383,6 +383,8 @@
 "Assets/Scripts/Game Play/HealthSystem.cs"
 "Assets/Scripts/Pooling System/PoolingManager.cs"
 "Assets/Scripts/Scriptable Objects/ShootProfile.cs"
+"Assets/Scripts/Transform/AutoMove.cs"
+"Assets/Scripts/Transform/LookAtPlayer.cs"
 "Assets/Scripts/Transform/NodeMove.cs"
 "Assets/Scripts/Transform/PlayerMovement.cs"
 "Assets/Scripts/Weapons/AutoShoot.cs"
