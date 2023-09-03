@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 16313 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-G:\game\2022.3.7f1\Editor\Unity.exe
+D:\Unity\2022.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-G:/ArtMachine/Meow/ScufForce
+D:/Github/ScufForce
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-65381
-Successfully changed project path to: G:/ArtMachine/Meow/ScufForce
-G:/ArtMachine/Meow/ScufForce
+60731
+Successfully changed project path to: D:/Github/ScufForce
+D:/Github/ScufForce
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,69 @@ G:/ArtMachine/Meow/ScufForce
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40316] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 1188802070 [EditorId] 1188802070 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8368] Host "[IP] 172.22.160.1 [Port] 0 [Flags] 2 [Guid] 66413375 [EditorId] 66413375 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VALVNOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [40316] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 1188802070 [EditorId] 1188802070 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8368] Host "[IP] 172.22.160.1 [Port] 0 [Flags] 2 [Guid] 66413375 [EditorId] 66413375 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VALVNOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 18.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
-[Subsystems] Discovering subsystems at path G:/game/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/ArtMachine/Meow/ScufForce/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/ScufForce/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   31.0.15.1694
+    VRAM:     6043 MB
+    Driver:   31.0.15.3623
 Initialize mono
-Mono path[0] = 'G:/game/2022.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'G:/game/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'G:/game/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Mono path[0] = 'D:/Unity/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008605 seconds.
-- Loaded All Assemblies, in  0.774 seconds
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010224 seconds.
+- Loaded All Assemblies, in  0.467 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 419 ms
+Android Extension - Scanning For ADB Devices 415 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.065 seconds
-Domain Reload Profiling: 1840ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (415ms)
-			TypeCache.Refresh (412ms)
-				TypeCache.ScanAssembly (391ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (174ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1066ms)
+	FinalizeReload (827ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (958ms)
+		SetupLoadedEditorAssemblies (751ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (645ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (553ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,10 +119,10 @@ Domain Reload Profiling: 1840ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.324 seconds
-Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\Github\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.999 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Native extension for WebGL target not found
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.210 seconds
-Domain Reload Profiling: 3533ms
-	BeginReloadAssembly (252ms)
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1926ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (923ms)
-		LoadAssemblies (506ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (697ms)
+		LoadAssemblies (439ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (565ms)
-			TypeCache.Refresh (489ms)
-				TypeCache.ScanAssembly (436ms)
-			ScanForSourceGeneratedMonoScriptInfo (50ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2211ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (296ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (928ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1854ms)
+		SetupLoadedEditorAssemblies (689ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (1536ms)
-			ProcessInitializeOnLoadMethodAttributes (129ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
-Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.1 MB). Loaded Objects now: 6514.
-Memory consumption went from 316.5 MB to 315.4 MB.
-Total: 6.609500 ms (FindLiveObjects: 0.652600 ms CreateObjectMapping: 0.376500 ms MarkObjects: 5.106700 ms  DeleteObjects: 0.471700 ms)
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.1 MB). Loaded Objects now: 6515.
+Memory consumption went from 317.2 MB to 316.1 MB.
+Total: 6.374500 ms (FindLiveObjects: 0.631900 ms CreateObjectMapping: 0.292800 ms MarkObjects: 4.955700 ms  DeleteObjects: 0.492800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,1126 +187,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 834063.505584 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fd1b31a7ccb4b48c2d01f3b2fd3a58') in 0.022759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.895398 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'de0fa41c7d2c9fde545eb0e352988e6b') in 0.376076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 4.876584 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke.fbx
-  artifactKey: Guid(e9617f08696c4de4298b9df7effd3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke.fbx using Guid(e9617f08696c4de4298b9df7effd3c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38381f117e85a9f1b76e0d05a67d69d') in 0.001905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.908327 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke.fbx
-  artifactKey: Guid(e9617f08696c4de4298b9df7effd3c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke.fbx using Guid(e9617f08696c4de4298b9df7effd3c8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '32c06843aa5d607cdde3a8f70571e0f9') in 0.032115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 34.851143 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca702e7f49c9e1ac7e4c137259b7966') in 0.001979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.864800 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '97e0fa4497b3bd7412338161f48427cb') in 0.028057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 29.846133 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553a591a3a3b8a08fcaa1f3734171e4') in 0.001932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.903960 seconds.
-  path: Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx
-  artifactKey: Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/VFXModels/Smoke 1.fbx using Guid(9613abd7873628c419b57d220689590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '77ee5c8cd0f5ef4cd790521d0ebd00ec') in 0.022309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 5.101763 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeef79fb0609133bc9ac0e100564ea3') in 0.003724 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1108.504125 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c1281dd23f00a579b2bb446fe4139c') in 0.002763 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.895160 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c469f04b8f49b89d9e1fbba3baae7271') in 0.033930 seconds
+  Time since last request: 191127.635858 seconds.
+  path: Assets/Materials/ben.mat
+  artifactKey: Guid(d698c8b2dddfa174ca152975ed17a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ben.mat using Guid(d698c8b2dddfa174ca152975ed17a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc5cdf6275a5cf08e4103a8da5ecc1') in 0.059266 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 18.549068 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3899e9a5d3dc5bb323863bd48084d4ba') in 0.002207 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 63.575535 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bd5af5562452e15da983db949bff90') in 0.002087 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 46.440310 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d9f72cadab25436b79db89e1706649') in 0.002125 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 5.210003 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c794287ff65b428866fae1a4f93480b') in 0.002163 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 45.548649 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a15a2914f63ff7607d1443fea0959') in 0.003183 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 91.075778 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edf563a874bfa1bf291f6b227c655e0') in 0.002146 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.484425 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2437604b84b3bbef113fbfae04df84c9') in 0.002377 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 105.899164 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de6468da2d9bbc0a70ff94e6001df2d') in 0.003607 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.014061 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2772e224c8c8635c3514d1b80710df91') in 0.002329 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 40.956529 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a091546f0c6944779f1368db2772fc') in 0.002624 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 3.085438 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a00c4d4beeb356b8b2d75c092d5fe6a') in 0.002510 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 31.222286 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae11e7157ba7792f5abdbde37f16007e') in 0.002806 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 46.474033 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9eb92e3f6fc9af936148cc8a3b958') in 0.002653 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.531737 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f555bbfc00b0c6582f7f88f11f705d92') in 0.002789 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.688995 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b90ff9e0568d47820354cb834422856') in 0.002481 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 5.570008 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bc479bce57c476c5585982dbbd39d6') in 0.002496 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 32.256988 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932beed001e4465098b88a0d498ad1f6') in 0.002471 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 136.559074 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b206e5c78376d78b687e9182cf07640') in 0.002232 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 184.101996 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaba78405b9fbb5539a879a06ff3420') in 0.003714 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 15.475615 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf02f9a82becdb01d7a21cf54086059') in 0.003645 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 108.499277 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a3b3bc036a356de2683237ada9d83d') in 0.002428 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.702791 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '11949b01fcee79b3570eb03c4fea3562') in 0.021478 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Missile.mat
+  artifactKey: Guid(f90efc9645801694fa259ec6cac87f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Missile.mat using Guid(f90efc9645801694fa259ec6cac87f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f1e367dbbfb761aeb26f6db6798e94') in 0.001107 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 8.143107 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f5262c543024bf29793fc04f2f0cef') in 0.002138 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 32.833233 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d52390316c05389f7d895595fd86dbd') in 0.002245 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.779913 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c94891a3357917a574b150e4a4094204') in 0.009110 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Rescue.mat
+  artifactKey: Guid(6c21f2c838998a34bb7eccccf2fad264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rescue.mat using Guid(6c21f2c838998a34bb7eccccf2fad264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f590e6f9db04c205609e6dfd93ca2190') in 0.001150 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 96.408778 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108b9b9d4af4525aa0a121b6e611c643') in 0.002392 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.790492 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6026c8248fedd95aa17a5b76687032ad') in 0.008570 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/EnemyMap02.mat
+  artifactKey: Guid(867b11bc9a9564d4fbaf2fb9ba19f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EnemyMap02.mat using Guid(867b11bc9a9564d4fbaf2fb9ba19f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512704f590c0d6a8014a53c71b7c973') in 0.011018 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 12.227111 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df4397ed56f3a0418aaf13ef200724') in 0.003199 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 26.181595 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba962ce4ba0786c3cce422d3c6c7a886') in 0.002799 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 136.851961 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '767ccf0737c74cfc4b3047f497ba1094') in 0.056979 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 4.815017 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbe70be60960d8dcd9773d6bf70f7e3') in 0.002455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 105.375328 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e40c1e48a1c3cdd4eda5354f0d0894f') in 0.011019 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 27.348605 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph
-  artifactKey: Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader.shadergraph using Guid(0e69c2e48c3bdaa4aa316fb069744d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf647c1be67004111fa8bfd5aa8c290') in 0.001760 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/WundervaffeMat02.mat
+  artifactKey: Guid(f4514b52588ff724a8e5e281b3067909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WundervaffeMat02.mat using Guid(f4514b52588ff724a8e5e281b3067909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652e0c594e22fe0fa2fd4edcc01831ce') in 0.023767 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.515345 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e65f246a6836dcb2968e9abbd0d75f3') in 0.002676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 5.580090 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26df7a36261801f036b53375fccdcf6') in 0.001835 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.770938 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1f897e1a9d4e674d66b9c1268b730402') in 0.021812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '47e2acdba18ae0ad437c8e59f383fe30') in 0.012407 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Turret_A.mat
+  artifactKey: Guid(8d49db955a968d24fa1e0400080fc0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Turret_A.mat using Guid(8d49db955a968d24fa1e0400080fc0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e986569a205b5be3114260ba9153d58') in 0.001413 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.695683 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke 1.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke 1.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bdfee2afc785c711c4475bfc9dc1a6') in 0.005283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 9.570442 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f9be6d5b2e70f2213e2253eb9eff99') in 0.004215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.888984 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '601eb22520eb48a71efb5ca60a56e218') in 0.027496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 7.771056 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817835c084b419e1bbedec1e01275f22') in 0.001613 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/WundervaffeMat01.mat
+  artifactKey: Guid(b3d7bd23a6a56a14f949e0551a763286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WundervaffeMat01.mat using Guid(b3d7bd23a6a56a14f949e0551a763286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6313dd164d7740cd9d6a6cf740657') in 0.036409 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.898541 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bdbd56e64157904651dc56aacb344bf2') in 0.007813 seconds
+  Time since last request: 0.000080 seconds.
+  path: Assets/Materials/Coin.mat
+  artifactKey: Guid(39d61c2b720e75a47a64c6c96adacb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Coin.mat using Guid(39d61c2b720e75a47a64c6c96adacb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8772b110411079e223ee61778141287') in 0.001194 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.826984 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ab7cc132b3d3fcb4d47b2592e52d7f') in 0.003437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 6.516324 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33644c73ccc8d38976faf6b2bc719f68') in 0.001759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.901574 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph
-  artifactKey: Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader2.shadergraph using Guid(093c7e1c78a2169469ac7cdd2acf1ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cec5341923d535dd1900900ad9357401') in 0.007920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 28.421547 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d51d13bc0a25c15ed19c181282291ee') in 0.003712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 55.964577 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9cd37d56cc5fa0dac3a844a83abdcec') in 0.022911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 33.507731 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke.vfx
-  artifactKey: Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke.vfx using Guid(76bb42aafc53bba4eae789ca2d5174bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dec8862905632275b76049949f1a6b') in 0.002592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.933 seconds
-Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.436 seconds
-Domain Reload Profiling: 3368ms
-	BeginReloadAssembly (338ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (115ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (567ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2437ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (987ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (629ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6520.
-Memory consumption went from 280.0 MB to 278.9 MB.
-Total: 9.055600 ms (FindLiveObjects: 1.158000 ms CreateObjectMapping: 0.420900 ms MarkObjects: 7.081300 ms  DeleteObjects: 0.393300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 166.642758 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11556582dd359d9d4799af906d2da23e') in 0.024103 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 8.412469 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph
-  artifactKey: Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShader 1.shadergraph using Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46779ed1fb9e50b15384ffdbedd1e469') in 0.005812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.003255 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke 1.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke 1.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f6b786932cea23132bce5784a0edf7') in 0.004728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 9.933345 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d868643976f655a5e3f9a595421b09') in 0.005253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 5.810742 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShaderBlue.shadergraph
-  artifactKey: Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShaderBlue.shadergraph using Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b7d39bf596ada0a9ff8e5f295d8d56') in 0.001625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.360501 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e88651fcfe672655cc039402f98abe') in 0.004040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 37.374515 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeShaderBlue.shadergraph
-  artifactKey: Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeShaderBlue.shadergraph using Guid(a2845ba97716052499bed3feb7347b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3231e1effb5c9847590fa815db5b1de9') in 0.001650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.987656 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44283b1b68fd4912532bf17383efe233') in 0.003496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 122.259248 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aedfa493b3617684e3b9594672a3ca0') in 0.004616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.818 seconds
-Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.259 seconds
-Domain Reload Profiling: 3074ms
-	BeginReloadAssembly (287ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (502ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (2260ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1028ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (671ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6525.
-Memory consumption went from 280.0 MB to 278.9 MB.
-Total: 6.769100 ms (FindLiveObjects: 0.708900 ms CreateObjectMapping: 0.369500 ms MarkObjects: 5.384000 ms  DeleteObjects: 0.305000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 210.809260 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx
-  artifactKey: Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmoke2.vfx using Guid(8ad96d776c0ec6143b8284ade04ce81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e8aa083c25b39ee344fa3892842be4') in 0.022017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.798 seconds
-Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.227 seconds
-Domain Reload Profiling: 3023ms
-	BeginReloadAssembly (267ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (485ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (42ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2228ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (954ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (627ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6530.
-Memory consumption went from 280.0 MB to 278.9 MB.
-Total: 7.006200 ms (FindLiveObjects: 0.643600 ms CreateObjectMapping: 0.445500 ms MarkObjects: 5.605500 ms  DeleteObjects: 0.310000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.794 seconds
-Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.221 seconds
-Domain Reload Profiling: 3013ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (489ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2222ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1001ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (665ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6535.
-Memory consumption went from 280.0 MB to 278.9 MB.
-Total: 8.577200 ms (FindLiveObjects: 0.725100 ms CreateObjectMapping: 0.535300 ms MarkObjects: 6.994500 ms  DeleteObjects: 0.320600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.795 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.281 seconds
-Domain Reload Profiling: 3072ms
-	BeginReloadAssembly (260ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (396ms)
-		LoadAssemblies (499ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2281ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1020ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (680ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6540.
-Memory consumption went from 280.0 MB to 278.9 MB.
-Total: 6.295600 ms (FindLiveObjects: 0.666400 ms CreateObjectMapping: 0.442200 ms MarkObjects: 4.873700 ms  DeleteObjects: 0.311300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 295.732137 seconds.
-  path: Assets/Prefabs/VFXGraph/ExplosionTest.vfx
-  artifactKey: Guid(ad01ca8701527cd4296114b4430b6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/ExplosionTest.vfx using Guid(ad01ca8701527cd4296114b4430b6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442f9ebfe8235604d9f602cb6ea54e9b') in 0.021885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 12.598458 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedExplosion.vfx
-  artifactKey: Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedExplosion.vfx using Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d58807541d84a48bad14ade90a0f6b') in 0.003285 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 34.067305 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d522711a1f646b564b5fb3db231e47c') in 0.003706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 2.182686 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx
-  artifactKey: Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedSmokeBlue.vfx using Guid(5ea6774590928c34e855ed1a53a5e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219654ad502c53bebae786e851bd2ec') in 0.003529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 43.369946 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedExplosion.vfx
-  artifactKey: Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedExplosion.vfx using Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41afbb37ed58b9f32a0a91a118fd213') in 0.003999 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 194.343209 seconds.
-  path: Assets/Prefabs/VFXGraph/StylizedExplosion.vfx
-  artifactKey: Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFXGraph/StylizedExplosion.vfx using Guid(ebd14b5fe352d1244bcb87df0ce79031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0655ee1d40eab964225f62005b7ca8') in 0.003506 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.803 seconds
-Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.128 seconds
-Domain Reload Profiling: 2929ms
-	BeginReloadAssembly (274ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (499ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (2128ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (899ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (590ms)
-			ProcessInitializeOnLoadMethodAttributes (123ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6545.
-Memory consumption went from 279.9 MB to 278.9 MB.
-Total: 6.110400 ms (FindLiveObjects: 0.620100 ms CreateObjectMapping: 0.361200 ms MarkObjects: 4.829700 ms  DeleteObjects: 0.297700 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.779 seconds
-Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path G:\ArtMachine\Meow\ScufForce\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <b89873cb176e44a995a4781c7487d410>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <97436df440ca462884c5332c1d8ebbe7>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.083 seconds
-Domain Reload Profiling: 2862ms
-	BeginReloadAssembly (274ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (490ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2084ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (884ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (588ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5856 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6550.
-Memory consumption went from 280.1 MB to 279.0 MB.
-Total: 6.516300 ms (FindLiveObjects: 0.674100 ms CreateObjectMapping: 0.408200 ms MarkObjects: 5.102300 ms  DeleteObjects: 0.329900 ms)
-
-Prepare: number of updated asset objects reloaded= 2
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

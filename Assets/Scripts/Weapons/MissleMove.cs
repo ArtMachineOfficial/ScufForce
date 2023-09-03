@@ -6,7 +6,7 @@ public class MissleMove : BulletMove
 {
     public float rotateSpeed = 3f, FollowDuration = 1f;
     public Transform player;
-    private Transform gmtrans;
+
 
     private WaitForSeconds physicsTimeStep;
 
@@ -19,7 +19,7 @@ public class MissleMove : BulletMove
 
     private void Start()
     {
-        gmtrans = player.transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void OnEnable()
@@ -33,9 +33,9 @@ public class MissleMove : BulletMove
         {
             followingDuration -= Time.fixedDeltaTime;
 
-            if(gmtrans != null )
+            if(player != null )
             {
-                Vector3 dir = gmtrans.position - transform.position;
+                Vector3 dir = player.position - transform.position;
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), rotateSpeed * Time.fixedDeltaTime);
             }
 
