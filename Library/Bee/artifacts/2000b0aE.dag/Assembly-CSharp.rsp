@@ -395,6 +395,7 @@
 "Assets/Scripts/Transform/PlayerMovement.cs"
 "Assets/Scripts/Weapons/AutoShoot.cs"
 "Assets/Scripts/Weapons/BulletMove.cs"
+"Assets/Scripts/Weapons/MissleMove.cs"
 -langversion:9.0
 
 /deterministic

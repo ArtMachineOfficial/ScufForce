@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletMove : MonoBehaviour
 {
     public float speed;
-    private Rigidbody myRb;
+    protected Rigidbody myRb;
 
     void Start()
     {

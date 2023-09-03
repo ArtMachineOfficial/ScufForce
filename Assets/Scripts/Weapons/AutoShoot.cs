@@ -37,8 +37,7 @@ public class AutoShoot : MonoBehaviour
         {
             float angle = 0f;
 
-            if (shootProfile.amount > 1)
-            {
+            
                 for (int i = 0; i < shootProfile.amount; i++)
                 {
                     angle = totalSpread * (i / (float)shootProfile.amount);
@@ -48,7 +47,7 @@ public class AutoShoot : MonoBehaviour
                     if (shootProfile.fireRate > 0f)
                         yield return rate;
                 }
-            }
+            
             
 
             yield return interval;
@@ -60,5 +59,6 @@ public class AutoShoot : MonoBehaviour
         GameObject temp = PoolingManager.instance.UseObject(bulletPrefabs, firePoint.position, firePoint.rotation);
         temp.name = shootProfile.damage.ToString();
         temp.transform.Rotate(Vector3.up, angle);
+        temp.GetComponent<BulletMove>().speed = shootProfile.speed;
     }    
 }

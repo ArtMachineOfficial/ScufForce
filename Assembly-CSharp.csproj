@@ -81,6 +81,7 @@
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\AutoBlinkforSD.cs" />
+    <Compile Include="Assets\Scripts\Weapons\MissleMove.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\ShootProfile.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringBone.cs" />
