@@ -58,12 +58,14 @@ public class HealthSystem : MonoBehaviour
     {
         if (_currentHealth <= 0f)
         {
-            //die 
+            if (healthBar != null)
+                healthBar.transform.parent.gameObject.SetActive(false);
+           
             if (deathScript != null)
                 deathScript.Death();
 
 
-            //score
+            
         }
     }
 

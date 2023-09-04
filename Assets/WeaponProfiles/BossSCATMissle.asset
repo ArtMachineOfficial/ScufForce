@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BossSCATMissle
   m_EditorClassIdentifier: 
   speed: 8
-  damage: 10
+  damage: 5
   fireRate: 0
   interval: 3
   destroyRate: 2.5

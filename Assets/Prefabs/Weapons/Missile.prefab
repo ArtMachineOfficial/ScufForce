@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 3932333788141926399}
   m_Layer: 0
   m_Name: Missile
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4432518300541831788
 Transform:
   m_ObjectHideFlags: 0

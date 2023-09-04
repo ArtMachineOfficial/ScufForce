@@ -389,6 +389,7 @@
 "Assets/Scripts/Pooling System/PoolingManager.cs"
 "Assets/Scripts/Scriptable Objects/ShootProfile.cs"
 "Assets/Scripts/Transform/AutoMove.cs"
+"Assets/Scripts/Transform/AutoRotate.cs"
 "Assets/Scripts/Transform/AutoRotateLimited.cs"
 "Assets/Scripts/Transform/LookAtPlayer.cs"
 "Assets/Scripts/Transform/NodeMove.cs"

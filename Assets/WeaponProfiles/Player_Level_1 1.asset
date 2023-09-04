@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Player_Level_1 1
   m_EditorClassIdentifier: 
   speed: 15
-  damage: 100
+  damage: 2
   fireRate: 0
-  interval: 3
+  interval: 0.5
   destroyRate: 2
   spread: 0
-  amount: 2
+  amount: 4

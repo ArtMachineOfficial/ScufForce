@@ -11,7 +11,19 @@ public class NodeMoveEditor : Editor
 
     public override void OnInspectorGUI()
     {
+        source = (NodeMove)target;
+
         base.OnInspectorGUI();
+
+        if (GUILayout.Button("Add Nodes!"))
+        {
+            source.nodes.Add(source.transform.position);
+        }
+
+        if (GUILayout.Button("Remove Nodes!"))
+        {
+            source.nodes.RemoveAt(source.nodes.Count - 1);
+        }
     }
 
     private void OnSceneGUI()

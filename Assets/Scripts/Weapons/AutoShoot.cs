@@ -48,6 +48,7 @@ public class AutoShoot : MonoBehaviour
                         yield return rate;
                 }
             
+
             
 
             yield return interval;
@@ -56,9 +57,12 @@ public class AutoShoot : MonoBehaviour
 
     void Shoot(float angle)
     {
-        GameObject temp = PoolingManager.instance.UseObject(bulletPrefabs, firePoint.position, firePoint.rotation);
+        Quaternion bulletRotation = Quaternion.Euler(firePoint.eulerAngles.x, firePoint.eulerAngles.y, 0f);
+
+        GameObject temp = PoolingManager.instance.UseObject(bulletPrefabs, firePoint.position, bulletRotation);
         temp.name = shootProfile.damage.ToString();
         temp.transform.Rotate(Vector3.up, angle);
         temp.GetComponent<BulletMove>().speed = shootProfile.speed;
+        PoolingManager.instance.ReturnObject(temp, shootProfile.destroyRate);
     }    
 }

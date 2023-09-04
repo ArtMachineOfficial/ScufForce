@@ -83,7 +83,7 @@ public class NodeMove : MonoBehaviour
 
                     float zBank = Mathf.Clamp(rotation.eulerAngles.y - oldAngle, -10f, 10f);
 
-                    Quaternion banking = Quaternion.Euler(0f, 0f, -Mathf.Ceil(zBank) * -bankingValue);
+                    Quaternion banking = Quaternion.Euler(0f, 0f, Mathf.Ceil(zBank) * -bankingValue);
 
                     rotation *= banking;
 
@@ -139,7 +139,7 @@ public class NodeMove : MonoBehaviour
 
     Vector3 CalculateBezierPath(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
     {
-        // (1 - t)^3 * p0 + 3(1 - t)^2 * t * p1 + 3(1 - t) * t^2 * p1 + t^3 * p3
+
 
         float oneMinusT = 1f - t;
 

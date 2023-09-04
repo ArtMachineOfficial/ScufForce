@@ -19,7 +19,8 @@ public class MissleMove : BulletMove
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (GameObject.FindGameObjectWithTag("Player"))
+            player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void OnEnable()

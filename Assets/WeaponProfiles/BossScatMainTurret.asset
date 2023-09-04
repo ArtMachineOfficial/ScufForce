@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BossScatMainTurret
   m_EditorClassIdentifier: 
   speed: 20
-  damage: 5
+  damage: 2
   fireRate: 0.1
   interval: 0.4
   destroyRate: 2.5

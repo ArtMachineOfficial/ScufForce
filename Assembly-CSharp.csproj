@@ -91,6 +91,7 @@
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Scripts\Weapons\BulletMove.cs" />
     <Compile Include="Assets\Scripts\Game Play\CreateObject.cs" />
+    <Compile Include="Assets\Scripts\Transform\AutoRotate.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\SharedAssets\Scripts\AutoLoadPipelineAsset.cs" />
   </ItemGroup>
   <ItemGroup>
