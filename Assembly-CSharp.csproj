@@ -65,8 +65,10 @@
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\Scripts\Weapons\AutoShoot.cs" />
+    <Compile Include="Assets\Scripts\Game Play\CollectItem.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Animations\Rotator.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\ActivatedScript.cs" />
     <Compile Include="Assets\Scripts\Game Play\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Transform\AutoMove.cs" />
     <Compile Include="Assets\Scripts\Game Play\DeathSystem.cs" />
@@ -87,7 +89,6 @@
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\RefleshProbe.cs" />
-    <Compile Include="Assets\Scripts\Transform\AutoRotateLimited.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Scripts\Weapons\BulletMove.cs" />
     <Compile Include="Assets\Scripts\Game Play\CreateObject.cs" />
