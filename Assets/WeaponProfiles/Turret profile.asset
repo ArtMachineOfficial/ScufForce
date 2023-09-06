@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Turret profile
   m_EditorClassIdentifier: 
   speed: 15
-  damage: 2
+  damage: 5
   fireRate: 0
-  interval: 0.6
+  interval: 1.5
   destroyRate: 2
   spread: 5
-  amount: 6
+  amount: 4
