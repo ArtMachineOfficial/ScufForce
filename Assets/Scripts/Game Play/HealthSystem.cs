@@ -11,6 +11,7 @@ public class HealthSystem : MonoBehaviour
     private string tagName;
     private float _currentHealth;
     private DeathSystem deathScript;
+    private bool dead;
 
 
     void OnEnable()
@@ -26,6 +27,7 @@ public class HealthSystem : MonoBehaviour
 
     private void Start()
     {
+        if (isEnemy) LevelManager.instance.RegisterEnemy();
         deathScript = GetComponent<DeathSystem>();
     }
 
@@ -33,6 +35,8 @@ public class HealthSystem : MonoBehaviour
     {
         if (other.CompareTag(tagName))
         {
+            if (!isEnemy)
+                LevelManager.instance.PlayerHit();
             Vector3 triggerPosition = other.ClosestPointOnBounds(transform.position);
             Vector3 direction = triggerPosition - transform.position;
 
@@ -64,6 +68,13 @@ public class HealthSystem : MonoBehaviour
             if (deathScript != null)
                 deathScript.Death();
 
+            if (isEnemy && !dead)
+            {
+                dead = true;
+                gameObject.tag = "Untagged";
+                LevelManager.instance.AddEnemyKill();
+            }
+               
 
             
         }
