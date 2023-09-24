@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Game Play\CollectItem.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Animations\Rotator.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\UpgradeItem.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ActivatedScript.cs" />
     <Compile Include="Assets\Scripts\Game Play\HealthSystem.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\AutoBlinkforSD.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Weapons\MissleMove.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UIScreen.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\ShootProfile.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringBone.cs" />

@@ -416,6 +416,8 @@
 "Assets/Scripts/Transform/LookAtPlayer.cs"
 "Assets/Scripts/Transform/NodeMove.cs"
 "Assets/Scripts/Transform/PlayerMovement.cs"
+"Assets/Scripts/UI Scripts/UIManager.cs"
+"Assets/Scripts/UI Scripts/UIScreen.cs"
 "Assets/Scripts/Weapons/AutoShoot.cs"
 "Assets/Scripts/Weapons/BulletMove.cs"
 "Assets/Scripts/Weapons/MissleMove.cs"
