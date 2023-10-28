@@ -1,3 +1,7 @@
+Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ConversionSystem.ref.dll_3AA533410EF50020.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ref.dll_8C9D88D4D544B7B9.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Updater.ref.dll_80FC5D41077E44D3.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_D970B68560CBEF78.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Animation.Rigging.Editor.ref.dll_B64946439A88DBB2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Animation.Rigging.ref.dll_17DC62BA897F9FEF.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_030BCB777AA5BDC3.mvfrm
@@ -9,6 +13,8 @@ Library\Bee\artifacts\mvdfrm\Unity.Mathematics.Editor.ref.dll_64944B6DD477E1FD.m
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_9B4CF66C9079F0F4.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_9B6D9940AFF80C3C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Polybrush.Editor.ref.dll_DE0B0DF847C3A1A5.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Polybrush.ref.dll_51AE77C38DCC56CC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_68E058FF39A70156.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_591CFE2FB1206075.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_E247BC73EF2948C5.mvfrm
@@ -22,6 +28,8 @@ Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Shaders.ref.dll_2EC
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_BB682F4C994978A9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Searcher.Editor.ref.dll_0B020369C2B9D134.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.ShaderGraph.Editor.ref.dll_D9C390C28F91CC8A.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Splines.Editor.ref.dll_47F52B70AECB6BE1.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Splines.ref.dll_10707690479E18D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_A9B4CA1AA14E26F9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_C83781DD64A29266.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.ref.dll_33A4BA77A8412D3F.mvfrm

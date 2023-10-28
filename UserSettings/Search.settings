@@ -23,6 +23,9 @@ scopes = {
 	"last_search.3172962C" = "smoke "
 	"OpenInspectorPreview.3172962C" = "0"
 	"currentGroup.3172962C" = "all"
+	"last_search.98D18836" = ""
+	"OpenInspectorPreview.98D18836" = "0"
+	"currentGroup.98D18836" = "all"
 }
 providers = {
 	find = {

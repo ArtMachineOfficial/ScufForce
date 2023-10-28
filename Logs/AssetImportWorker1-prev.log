@@ -15,7 +15,7 @@ G:/ArtMachine/Meow/ScufForce
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65201
+57444
 Successfully changed project path to: G:/ArtMachine/Meow/ScufForce
 G:/ArtMachine/Meow/ScufForce
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ G:/ArtMachine/Meow/ScufForce
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [95388] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 601535255 [EditorId] 601535255 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [126856] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 3379743046 [EditorId] 3379743046 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [95388] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 601535255 [EditorId] 601535255 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [126856] Host "[IP] 25.9.64.185 [Port] 0 [Flags] 2 [Guid] 3379743046 [EditorId] 3379743046 [Version] 1048832 [Id] WindowsEditor(7,KOMP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 383.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path G:/game/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,49 +69,49 @@ Initialize mono
 Mono path[0] = 'G:/game/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'G:/game/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/game/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: G:/game/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008852 seconds.
-- Loaded All Assemblies, in  0.703 seconds
+Registered in 0.107340 seconds.
+- Loaded All Assemblies, in  2.790 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 509 ms
+Android Extension - Scanning For ADB Devices 467 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.300 seconds
-Domain Reload Profiling: 2003ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  1.246 seconds
+Domain Reload Profiling: 4036ms
+	BeginReloadAssembly (2003ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (183ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (2003ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (333ms)
-			TypeCache.Refresh (330ms)
-				TypeCache.ScanAssembly (307ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (475ms)
+				TypeCache.ScanAssembly (448ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1301ms)
+	FinalizeReload (1247ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1163ms)
+		SetupLoadedEditorAssemblies (1133ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (778ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (779ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (249ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,158 +121,57 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.520 seconds
-Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
+- Loaded All Assemblies, in  7.801 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path G:\ArtMachine\Meow\ScufForce\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <b89873cb176e44a995a4781c7487d410>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <97436df440ca462884c5332c1d8ebbe7>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.185 seconds
-Domain Reload Profiling: 3705ms
-	BeginReloadAssembly (291ms)
+- Finished resetting the current domain, in  3.524 seconds
+Domain Reload Profiling: 11301ms
+	BeginReloadAssembly (1947ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (1051ms)
-		LoadAssemblies (589ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (5643ms)
+		LoadAssemblies (6939ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (626ms)
-			TypeCache.Refresh (534ms)
-				TypeCache.ScanAssembly (493ms)
-			ScanForSourceGeneratedMonoScriptInfo (62ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2186ms)
+		AnalyzeDomain (536ms)
+			TypeCache.Refresh (457ms)
+				TypeCache.ScanAssembly (421ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (3525ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1753ms)
+		SetupLoadedEditorAssemblies (3119ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
+			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (1349ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.1 MB). Loaded Objects now: 6515.
-Memory consumption went from 315.3 MB to 314.2 MB.
-Total: 8.713800 ms (FindLiveObjects: 0.792400 ms CreateObjectMapping: 0.717100 ms MarkObjects: 6.712000 ms  DeleteObjects: 0.490500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1121134.200892 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(08e0b1439ae4f0b4fa340dc2703a377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(08e0b1439ae4f0b4fa340dc2703a377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2409a41f0511b2814b3d4102b65c5327') in 0.032104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image G:\ArtMachine\Meow\ScufForce\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.799 seconds
-Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Air Destroyer
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.109 seconds
-Domain Reload Profiling: 2907ms
-	BeginReloadAssembly (276ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (487ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (46ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2109ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (879ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (569ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (2780ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 44.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5858 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.0 MB). Loaded Objects now: 6521.
-Memory consumption went from 279.0 MB to 278.0 MB.
-Total: 7.730800 ms (FindLiveObjects: 0.668000 ms CreateObjectMapping: 0.389800 ms MarkObjects: 6.359900 ms  DeleteObjects: 0.311000 ms)
+Unloading 6316 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (1.2 MB). Loaded Objects now: 6782.
+Memory consumption went from 324.9 MB to 323.8 MB.
+Total: 6.628000 ms (FindLiveObjects: 0.665800 ms CreateObjectMapping: 0.408300 ms MarkObjects: 5.053500 ms  DeleteObjects: 0.498700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -288,122 +187,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 452.982562 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/AngelRing/Materials/Yu_Face2.mat
-  artifactKey: Guid(53b4edddd9b94714ad4338892b734299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/AngelRing/Materials/Yu_Face2.mat using Guid(53b4edddd9b94714ad4338892b734299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa70501cb773d555637899ad5d46bc48') in 0.014290 seconds
+  Time since last request: 1439986.918563 seconds.
+  path: Assets/Models/Enviroment/Buildings/Wall_3.prefab
+  artifactKey: Guid(bb26a529c29b40842abe8ba9984c4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enviroment/Buildings/Wall_3.prefab using Guid(bb26a529c29b40842abe8ba9984c4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9be2344d1ba1fe74e76b02ae08b0289') in 0.461257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 327.965394 seconds.
+  path: Assets/Materials/Sparks/Smoke.mat
+  artifactKey: Guid(45a855a733783484eb66d32d968e37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sparks/Smoke.mat using Guid(45a855a733783484eb66d32d968e37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd1337531e0d3198f87acaa0f2e1771') in 0.001954 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.046101 seconds.
-  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/SharedAssets/Materials/White.mat
-  artifactKey: Guid(ec1179175ec9b4c0c8faa41f6ee73a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/SharedAssets/Materials/White.mat using Guid(ec1179175ec9b4c0c8faa41f6ee73a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1649e6b1ef197288929a37f12be63778') in 0.001409 seconds
+  Time since last request: 61.279815 seconds.
+  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat
+  artifactKey: Guid(81a7b3fb99e984cb0a7a85e94d32a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat using Guid(81a7b3fb99e984cb0a7a85e94d32a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3ad440e1563b34670453eb469d4e75') in 0.001491 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/AngelRing/Materials/White.mat
-  artifactKey: Guid(0299170780774e0aa5e4bc48a5b50315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/AngelRing/Materials/White.mat using Guid(0299170780774e0aa5e4bc48a5b50315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc34fb14bde154bfac9c2ed7efec7a5f') in 0.001561 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat
+  artifactKey: Guid(ab1e501408f784696a373918622592b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat using Guid(ab1e501408f784696a373918622592b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942e193968c38fd47908a76dfa1b6e1b') in 0.001926 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021877 seconds.
-  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat
-  artifactKey: Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat using Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c090c15ec1a20ee7808eaecd7c4c688') in 0.001537 seconds
+  Time since last request: 0.000154 seconds.
+  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat
+  artifactKey: Guid(ecee61e47a05b47ca91f89049a9cb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat using Guid(ecee61e47a05b47ca91f89049a9cb014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65e0e7a54ae1e0a6516caf9eb1a5f5e') in 0.003231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/Sample/Blue_Clipping.mat
+  artifactKey: Guid(3ce76fdfad5541a199a40d37b170a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/Scenes/Sample/Blue_Clipping.mat using Guid(3ce76fdfad5541a199a40d37b170a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd859a07c42dbf06e6e59f4c1539c5437') in 0.001733 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.133323 seconds.
-  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat
-  artifactKey: Guid(92b3aa099ecb9483381c91aba9894aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat using Guid(92b3aa099ecb9483381c91aba9894aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5d3f4af32f12cabf29d74846b678a2') in 0.001960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.483679 seconds.
-  path: Assets/Materials/TuretteMat01.mat
-  artifactKey: Guid(25d0f105316d31540963f4a4e2352ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TuretteMat01.mat using Guid(25d0f105316d31540963f4a4e2352ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e2b008f0c3ed73ccdb7a49ce6124ed') in 0.028480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Materials/TuretteMat02.mat
-  artifactKey: Guid(1002b6efb0f64414eb14c3a612969387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TuretteMat02.mat using Guid(1002b6efb0f64414eb14c3a612969387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53146885949a1e3a32aa12fa5d07d9b') in 0.021455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/SD/unitychan_tile3.mat
-  artifactKey: Guid(a59281a0142f4ba397cd56b5d8e5bc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/SD/unitychan_tile3.mat using Guid(a59281a0142f4ba397cd56b5d8e5bc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db0cda534ce437ab250dc0d0440b48b') in 0.001498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.665504 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Fhair_StencilOut.mat
-  artifactKey: Guid(28ae21c070de48aa903a51908b254848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Fhair_StencilOut.mat using Guid(28ae21c070de48aa903a51908b254848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2edbfb08abb67cc5860b51e2e4990') in 0.001495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Hair_Clipping.mat
-  artifactKey: Guid(02c3682f1adc47b68b8d9e8ada23ec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Hair_Clipping.mat using Guid(02c3682f1adc47b68b8d9e8ada23ec40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49c5b683debfcdeb7fe7d0fa85bc417') in 0.001733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Hair_Clipping_ABN_FrontCulling.mat
-  artifactKey: Guid(52466e8ec2594a30a2c6b81b573b8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Hair_Clipping_ABN_FrontCulling.mat using Guid(52466e8ec2594a30a2c6b81b573b8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f3c6acf96567e35deee84cbc447178') in 0.002097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Fhair_StencilOut_ABN.mat
-  artifactKey: Guid(ee92d86ab6504f0992a2705bd1ff2915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Unity Toon Shader/0.9.4-preview/Universal render pipeline/UnityChan/Materials/ToonShader_Fhair_StencilOut_ABN.mat using Guid(ee92d86ab6504f0992a2705bd1ff2915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7fe0570795cd7389e547072644d53') in 0.001458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 17.267528 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat
-  artifactKey: Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat using Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b9c7ec226fad2bc7465ea2dd22ddbb') in 0.006964 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat
-  artifactKey: Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat using Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81569c97d73b799a90a47f1476ec9425') in 0.001518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat
-  artifactKey: Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat using Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871dd6e79a3203dbf070bcf1cd06e323') in 0.509577 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseWhite.mat
+  artifactKey: Guid(f5c03b7d48332454cbf96bd82bc98f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/14.0.8/URP Package Samples/Shaders/Lit/Materials/BaseWhite.mat using Guid(f5c03b7d48332454cbf96bd82bc98f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673d99966b5f4e383c7f6c3e5f6fc35e') in 0.001605 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
