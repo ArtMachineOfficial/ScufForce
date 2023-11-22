@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7908702374309403682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548324977964003582}
+  - component: {fileID: 7707257292320886236}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &548324977964003582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908702374309403682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -226.0944, y: -204.55319, z: -8.4409485}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7707257292320886236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908702374309403682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f5282526a47b134799c5e14414523be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 5
+  money: 500
+  blasterUpgradeList:
+  - {fileID: 11400000, guid: d20974d6f0e28a043be0c2bb6ed4b6e0, type: 2}
+  - {fileID: 11400000, guid: c67bfd4742e3d8a499c4e5ba80a1dd5b, type: 2}
+  missileUpgradeList:
+  - {fileID: 11400000, guid: d0ccc99589016bc44ac81c81b8078919, type: 2}
+  healthUpgradeList:
+  - 5
+  - 10
+  - 12
+  - 14
+  - 18
+  megaBombUpgList:
+  - radius: 4
+    damage: 25
+  - radius: 5
+    damage: 30
+  - radius: 6
+    damage: 35
+  - radius: 7
+    damage: 40
+  - radius: 8
+    damage: 45
+  shieldUpgList:
+  - shieldDuration: 3
+  - shieldDuration: 4
+  - shieldDuration: 5
+  - shieldDuration: 6
+  - shieldDuration: 7
+  laserUpgList:
+  - laserDuration: 3
+  - laserDuration: 4
+  - laserDuration: 5
+  - laserDuration: 6
+  - laserDuration: 7
+  stats:
+  - name: Blaster
+    level: 1
+    upgradeTime:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
+  - name: Missile
+    level: 1
+    upgradeTime:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
+  - name: Health
+    level: 1
+    upgradeTime:
+    - 2
+    - 0.1
+    - 0.2
+    - 8
+    - 10
+  - name: MegaBomb
+    level: 1
+    upgradeTime:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
+  - name: Shield
+    level: 1
+    upgradeTime:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10
+  - name: Laser
+    level: 1
+    upgradeTime:
+    - 2
+    - 4
+    - 6
+    - 8
+    - 10

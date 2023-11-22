@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Air_Destroyer.unity
+    guid: bbc03e105eec68e4b8145ed072df52be
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 59ebd169fbdf88348b13ab1364549c99
+  - enabled: 1
+    path: Assets/Scenes/VFXTests.unity
+    guid: 2553b6a18af0d18469409874676c7d85
   m_configObjects: {}
