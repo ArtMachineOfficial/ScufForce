@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6C0DB4D9-5005-304A-0DDB-2442DF4F7089}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prefabs/UI/NewUSSFile.uss">
+    <Files>
+      <File FileName="Assets/Prefabs/UI/NewUSSFile.uss" Line="1" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ScufForce" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Prefabs" expanded="True">
+                <Node name="UI" expanded="True">
+                  <Node name="NewUSSFile.uss" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eb5683c2-2b1d-49ee-bd10-9807b5df3b1f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
