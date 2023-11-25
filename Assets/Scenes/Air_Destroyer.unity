@@ -3806,7 +3806,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1084429694
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3864,7 +3864,7 @@ Transform:
   m_GameObject: {fileID: 1084429693}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.558284, y: -1.9327583, z: 46.621567}
+  m_LocalPosition: {x: -5.558284, y: -1.9327583, z: 100.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3883,7 +3883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 180380e33d0432a49ad8a1fb560556d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: Air_Destroyer
+  LevelName: Level03
   gameObject: {fileID: 207108677}
 --- !u!1001 &1130415096
 PrefabInstance:
