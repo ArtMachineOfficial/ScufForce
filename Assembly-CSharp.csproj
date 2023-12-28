@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Weapons\AutoShoot.cs" />
     <Compile Include="Assets\Scripts\Game Play\CollectItem.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\LevelChanger.cs" />
+    <Compile Include="Assets\Character\Scripts\CharacterController\vThirdPersonInput.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Animations\Rotator.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\LensFlares\Scripts\ScreenSpacePlacement.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\UIManager.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\ActivatedScript.cs" />
     <Compile Include="Assets\Scripts\Game Play\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Transform\AutoMove.cs" />
+    <Compile Include="Assets\Scripts\Game Play\FollowCursor.cs" />
     <Compile Include="Assets\Scripts\Game Play\GameEndScript.cs" />
     <Compile Include="Assets\Scripts\Game Play\DeathSystem.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Scenes\Mirror\Scripts\MirrorReflection.cs" />
@@ -87,10 +89,14 @@
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SetShadowQuality.cs" />
     <Compile Include="Assets\Scripts\Transform\CoinMovement.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SetShadowResolution.cs" />
+    <Compile Include="Assets\Character\Scripts\CharacterController\vThirdPersonAnimator.cs" />
+    <Compile Include="Assets\Character\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyWav.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\DialogManager.cs" />
+    <Compile Include="Assets\Character\3D Models\Others\HealthItem\vAnimateUV.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\Pooling System\PoolingManager.cs" />
+    <Compile Include="Assets\Character\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\StatsKManager.cs" />
     <Compile Include="Assets\Scripts\Transform\LookAtPlayer.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\CameraStacking\3D Skybox\Scripts\SkyboxCamera.cs" />
@@ -101,13 +107,17 @@
     <Compile Include="Assets\Scripts\Data Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Weapons\MissleMove.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\UIScreen.cs" />
+    <Compile Include="Assets\Character\Scripts\CharacterController\vThirdPersonMotor.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\RendererFeatures\KeepFrame\KeepFrameFeature.cs" />
+    <Compile Include="Assets\Character\Scripts\CharacterController\vThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\Scriptable Objects\ShootProfile.cs" />
     <Compile Include="Assets\Scripts\AudioScripts\PlayRandomAudio.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\SharedAssets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\RefleshProbe.cs" />
+    <Compile Include="Assets\Character\Scripts\Generic\Utils\vPickupItem.cs" />
     <Compile Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\UnityChan\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\Character\Scripts\Camera\vThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\SaveSystem.cs" />
     <Compile Include="Assets\Scripts\Level Generation\TileManager.cs" />
     <Compile Include="Assets\Scripts\Weapons\BulletMove.cs" />
@@ -119,6 +129,7 @@
   <ItemGroup>
     <None Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Scenes\Mirror\Shader\Mirror.shader" />
     <None Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Scenes\Mirror\Specification.txt" />
+    <None Include="Assets\Character\README_Basic.txt" />
     <None Include="Assets\Free Stylized Skybox\ReadMe.txt" />
     <None Include="Assets\Samples\Universal RP\14.0.8\URP Package Samples\SharedAssets\Shaders\3DText.shader" />
     <None Include="Assets\Samples\Unity Toon Shader\0.9.4-preview\Universal render pipeline\Scenes\Mirror\Shader\FaceOrientation.shader" />
