@@ -24,5 +24,5 @@ public class AutoMoveEndless : MonoBehaviour
         controller.Move(direction * Time.fixedDeltaTime);
     }
 
-    
+
 }

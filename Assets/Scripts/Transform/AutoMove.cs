@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,8 +13,8 @@ public class AutoMove : MonoBehaviour
     private Vector3 targetPos, initialPos;
     private float moveDistance;
 
-    // Start is called before the first frame update
-    void Start()
+    // Use this for initialization
+    void Start ()
     {
         initialPos = transform.localPosition;
         moveDistance = moveOffset.magnitude;
@@ -23,30 +23,35 @@ public class AutoMove : MonoBehaviour
         {
             Move(reverse);
         }
-    }
+	}
 
-    public void Move(bool reverce)
+    public void Move(bool reverse)
     {
-        StartCoroutine(StartMove(reverce, duration));
-
+        StartCoroutine(StartMove(reverse, duration));
     }
 
-    IEnumerator StartMove(bool reverce, float time) {
-        if (reverce)
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
+    IEnumerator StartMove(bool reverse, float time)
+    {
+        if (reverse)
         {
             targetPos = initialPos;
             transform.localPosition += moveOffset;
         }
         else
-        {
             targetPos = transform.localPosition + moveOffset;
-        }
 
         onStartMove.Invoke();
 
-        while(transform.localPosition != targetPos)
+        while (transform.localPosition != targetPos)
         {
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, targetPos, (moveDistance / time) * Time.deltaTime);
+            transform.localPosition = Vector3.MoveTowards(transform.localPosition, targetPos, 
+                (moveDistance / time) * Time.deltaTime);
+
             yield return null;
         }
 

@@ -1,0 +1,37 @@
+*******************************************************************
+*                             INCLUDE                             *
+*******************************************************************
+
+if SHADER_PIPELINE_IS_HD
+{
+	if MATERIAL_KEYWORD_ENABLED _DETAIL_MAP
+	{
+		Material SET_FLOAT _DetailMode 1
+		Material SET_FLOAT _DetailBlendMode 0
+		Material SET_FLOAT _SecondUVsMode 0
+		Material SET_FLOAT _DetailMaskMode 0
+			
+		Material COPY_ST_AS_VECTOR _DetailMap _SecondUVs
+	}
+		
+	if MATERIAL_KEYWORD_ENABLED _DETAIL_MAP
+	{
+		Texture PropName _SecondAlbedoTex
+		Texture ImportType DEFAULT
+		Texture SetRed GET_RED _DetailMap
+		Texture SetGreen GET_RED _DetailMap
+		Texture SetBlue GET_RED _DetailMap
+		Utility START_TEXTURE_PACKING
+			
+		Texture PropName _SecondNormalTex
+		Texture ImportType NORMALMAP
+		Texture SetRed GET_ALPHA _DetailMap
+		Texture SetGreen GET_GREEN _DetailMap
+		Utility START_TEXTURE_PACKING
+			
+		Texture PropName _SecondMaskTex
+		Texture ImportType DEFAULT
+		Texture SetAlpha GET_BLUE _DetailMap
+		Utility START_TEXTURE_PACKING
+	}
+}
