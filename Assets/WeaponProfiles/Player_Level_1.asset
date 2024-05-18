@@ -15,7 +15,7 @@ MonoBehaviour:
   speed: 5
   damage: 2
   fireRate: 0
-  interval: 0.1
+  interval: 0.3
   destroyRate: 2
   spread: 3
   amount: 1
