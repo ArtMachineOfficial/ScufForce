@@ -49,6 +49,13 @@ public class HealthSystem : MonoBehaviour
 
             PoolingManager.instance.ReturnObject(other.gameObject);
         }
+
+        if (other.CompareTag("EnemyCollision"))
+        {
+            float damage = 5f;
+            TakeDamage(damage);
+        }
+
     }
 
     public void TakeDamage(float damage)
@@ -74,9 +81,6 @@ public class HealthSystem : MonoBehaviour
                 gameObject.tag = "Untagged";
                 LevelManager.instance.AddEnemyKill();
             }
-               
-
-            
         }
     }
 
