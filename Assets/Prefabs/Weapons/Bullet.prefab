@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4651672423035448178}
   - component: {fileID: 164951264266518882}
   - component: {fileID: 4087655017251105890}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5180036877572783575}
   - component: {fileID: 5430726367970877365}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8489604702639688002}
   - component: {fileID: 1970082378721965183}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Bullet Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
