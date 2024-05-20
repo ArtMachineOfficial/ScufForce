@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+  <string>
+    <key>greeting</key>
+    <en>Hello!</en>
+    <ru>Солнечным утром Анна проснулась с предвкушением нового дня. Она быстро оделась и отправилась на прогулку по парку. Свежий воздух наполнял ее энергией, а пение птиц создавало приятную атмосферу.</ru>
+  </string>
+  <string>
+    <key>farewell</key>
+    <en>Goodbye!</en>
+    <ru>До свидания!</ru>
+  </string>
+</localization>
