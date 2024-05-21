@@ -24,16 +24,13 @@ public class PlayerAutoShoot : MonoBehaviour
 
         totalSpread = shootProfile.spread * shootProfile.amount;
 
-        if (!PauseMenu.isPaused)
-        {
-            if (Input.GetMouseButtonDown(0))
-                if (Time.time - _lastShotTime > _cooldown)
-                {
-                    StartCoroutine(ShootingSequence());
-                }
-            if (Input.GetMouseButtonUp(0))
-                StopAllCoroutines();
-        }
+        if (Input.GetMouseButtonDown(0))
+            if(Time.time - _lastShotTime > _cooldown)
+            {
+                StartCoroutine(ShootingSequence());
+            }  
+        if (Input.GetMouseButtonUp(0))
+            StopAllCoroutines();
     }
 
     private void OnDisable()
