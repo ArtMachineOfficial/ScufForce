@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3305714277200231009}
   - component: {fileID: 4859081703526841019}
   - component: {fileID: 3932333788141926399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Missile
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
@@ -168,6 +168,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4a641580b7bc7e34ab3acd4fbb55056e, type: 3}
       propertyPath: m_Name
       value: Missle_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4a641580b7bc7e34ab3acd4fbb55056e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
