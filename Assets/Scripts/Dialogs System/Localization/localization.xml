@@ -6,8 +6,73 @@
     <ru>Солнечным утром Анна проснулась с предвкушением нового дня. Она быстро оделась и отправилась на прогулку по парку. Свежий воздух наполнял ее энергией, а пение птиц создавало приятную атмосферу.</ru>
   </string>
   <string>
-    <key>farewell</key>
-    <en>Goodbye!</en>
-    <ru>До свидания!</ru>
+    <key>UI_PAUSED</key>
+    <en>Paused</en>
+    <ru>Пауза</ru>
+  </string>
+  <string>
+    <key>UI_RESUME_BUTTON</key>
+    <en>Resume</en>
+    <ru>Продолжить</ru>
+  </string>
+  <string>
+    <key>UI_BACK_TO_MAIN_MENU_BUTTON</key>
+    <en>Back To Menu</en>
+    <ru>В Меню</ru>
+  </string>
+  <string>
+    <key>UI_EXIT_BUTTON</key>
+    <en>Quit Game</en>
+    <ru>Выйти Из Игры</ru>
+  </string>
+  <string>
+    <key>UI_BACK_BUTTON</key>
+    <en>Back</en>
+    <ru>Назад</ru>
+  </string>
+  <string>
+    <key>UI_ENTER_HQ_BUTTON</key>
+    <en>Start</en>
+    <ru>Начать</ru>
+  </string>
+  <string>
+    <key>UI_SETTINGS_BUTTON</key>
+    <en>Settings</en>
+    <ru>Настройки</ru>
+  </string>
+  <string>
+    <key>UI_QUIT_BUTTON</key>
+    <en>Exit</en>
+    <ru>Выйти</ru>
+  </string>
+  <string>
+    <key>UI_LEVEL_01_NAME</key>
+    <en>Meow</en>
+    <ru>Тайны острова</ru>
+  </string>
+  <string>
+    <key>UI_LEVEL_01_DESC</key>
+    <en>Meow</en>
+    <ru>Разведичики обнаружули скрытую базу противника на островах, замаскированных под обычную островную деревню</ru>
+  </string>
+  <string>
+    <key>UI_HP_UPGRADE</key>
+    <en>Upgrade health</en>
+    <ru>Улучшить здоровье</ru>
+  </string>
+  <string>
+    <key>UI_BULLET_DAMAGE_UPGRADE</key>
+    <en>Upgrade damage</en>
+    <ru>Улучшить урон</ru>
+  </string>
+  <string>
+    <key>UI_BULLET_COUNT_UPGRADE</key>
+    <en>Upgrade bullets</en>
+    <ru>Улучшить скорострельность</ru>
+  </string>
+  <string>
+    <key>UI_SHIELD_UPGRADE</key>
+    <en>Upgrade shield</en>
+    <ru>Улучшить щит</ru>
   </string>
 </localization>
